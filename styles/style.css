@@ -1,0 +1,102 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+ }
+ #editText {
+  
+    /* Добавляем начальные стили для input поля */
+    padding: 30px; 
+    font-size: 30px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    transition: opacity 0.3s; /* Добавляем плавный переход для opacity */
+    opacity: 0; /* Начальное значение прозрачности */
+}
+
+#editText.show {
+    opacity: 1; /* Показываем input поле плавно */
+}
+
+#editText:hover {
+    border-color: dodgerblue;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.button  {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .start_over_button{
+    margin-top: 30px;
+   
+    padding: 30px 50px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 1s; /* Добавляем плавный переход для opacity */
+    opacity: 0; /* Начальное значение прозрачности */
+  }
+
+.start_over_button {
+    opacity: 1; /* Показываем кнопку плавно */
+}
+.start_over_button:hover{
+    background-color: #45a049;
+ }
+  .btnCheck {
+    /* Добавляем начальные стили для кнопки */
+    margin-top: 30px;
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 1s; /* Добавляем плавный переход для opacity */
+    opacity: 0; /* Начальное значение прозрачности */
+}
+
+.btnCheck.show {
+    opacity: 1; /* Показываем кнопку плавно */
+}
+
+  
+ .btnCheck:hover{
+    background-color: #45a049;
+ }
+  .button:hover {
+    background-color: #45a049;
+  }
+ 

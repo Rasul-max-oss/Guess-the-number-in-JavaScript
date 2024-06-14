@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <script src="https://js.cx/libs/animate.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <audio src="sound3.mp3" autoplay="autoplay"></audio>
+    <div class="app">   
+        <h3 id="output"></h3>
+       <input placeholder="Введите число: " type="text" id="editText" class="editText">
+       <button  onclick="playGame()" class="button" id="button">Играть</button>
+       <button  onclick="isCheckedNumber()" class="btnCheck" id="btnCheck">Проверить</button>
+       <button  onclick="playGame()" class="start_over_button" id="start_over_button">Сыграть еще раз</button>
+    </div>
+  
+    <script src="scripts/app.js"></script>
+</body>
+</html>
